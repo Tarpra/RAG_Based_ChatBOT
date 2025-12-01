@@ -25,38 +25,35 @@ You can upload a **PDF** or **TXT** document and then ask questions based on its
 
 ## Project Structure
 
-```text
-.
 ├── RAGChatBOT.py        # Main Streamlit app
 ├── requirements.txt     # Python dependencies
 ├── README.md            # Project documentation
 └── .env.example         # Example environment variables (no real keys)
 
 
-## 🔧 Installation & Setup
+## Installation & Setup
 
-1️⃣ Clone the repository
+#### 1️⃣ Clone the repository
 
-```bash
 git clone https://github.com/<your-username>/<your-repo>.git
 cd <your-repo>
 
-2️⃣ Create a virtual environment (optional but recommended)
+#### 2️⃣ Create a virtual environment (optional but recommended)
 
 python -m venv venv
 source venv/bin/activate     # macOS / Linux
 # venv\Scripts\activate      # Windows
 
-3️⃣ Install dependencies
+#### 3️⃣ Install dependencies
 
 pip install -r requirements.txt
 
-4️⃣ Add your API key
+#### 4️⃣ Add your API key
 
 Copy .env.example → .env:
 
 cp .env.example .env            # macOS / Linux
-# copy .env.example .env        # Windows
+copy .env.example .env        # Windows
 
 Open .env and add:
 
@@ -66,7 +63,7 @@ Run the Streamlit application:
 streamlit run RAGChatBOT.py
 
 
-**💬 How It Works**
+## **💬 How It Works**
 
 Upload a PDF or TXT file
 
