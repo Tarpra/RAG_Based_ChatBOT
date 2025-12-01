@@ -1,0 +1,10 @@
+streamlit
+PyPDF2
+python-dotenv
+
+langchain-text-splitters
+langchain-community
+langchain-openai
+langchain-core
+
+faiss-cpu
