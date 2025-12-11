@@ -63,7 +63,7 @@ Run the Streamlit application:
 streamlit run RAGChatBOT.py
 
 
-## **💬 How It Works**
+## **How It Works**
 
 Upload a PDF or TXT file
 
