@@ -1,4 +1,4 @@
-# RAG Chatbot – Chat with Your Documents
+# RAG Chatbot – Chat with your Documents
 
 This is a Streamlit-based RAG (Retrieval-Augmented Generation) chatbot built using **LangChain** and **OpenAI**.  
 You can upload a **PDF** or **TXT** document and then ask questions based on its content. The app splits the document into chunks, creates embeddings using OpenAI, stores them in a **FAISS** vector store, and uses a chat model to answer your questions.
