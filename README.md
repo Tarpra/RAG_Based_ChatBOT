@@ -53,7 +53,7 @@ pip install -r requirements.txt
 Copy .env.example → .env:
 
 cp .env.example .env            # macOS /Linux
-copy .env.example .env        # Windows
+copy .env.example .env        # Windows.
 
 Open .env and add:
 
